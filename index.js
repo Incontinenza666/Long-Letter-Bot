@@ -7,7 +7,7 @@ bot.start((ctx) =>
   ctx.reply(
     `Привет ${
       ctx.message.from.first_name ? ctx.message.from.first_name : "Незнакомец"
-    }, что бы посмотреть все команды бота нажми на help! 🥰`
+    }, что бы посмотреть все команды бота, напиши /help! 🥰`
   )
 );
 bot.help((ctx) => ctx.reply(text.commands));
